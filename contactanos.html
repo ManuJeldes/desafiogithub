@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mayerling Cup & Cakes</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<a href="" class="logo">
+				<img src="img/logo.jpg" alt="Logo de cupcakes" width="50px" height="70px">
+			</a>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="conocenos.html">Conócenos</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="galeria.html">Galería </a></li>
+			<li><a href="contactanos.html">Contáctanos</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h2>Contáctanos</h2>
+	</header>
+
+	<section id="contáctanos">
+		<form action="envio.php" method="post">
+			<fieldset>
+				<legend id="legend">Envíanos tus datos</legend>
+				<label for="nombre">Nombre y Apellido:</label>
+				<input type="text" id="nombre" name="nombre" placeholder="Mayerling Tapia" required>
+				<br>
+				<label for="telefono">Teléfono de contacto:</label>
+				<input type="tel" id="tel" name="telefono" placeholder="+56 9 XXXXXXXX" required>
+				<br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" placeholder="aquituemail@cupcakes.cl" required>
+				<br>
+				<label for="lugar">Soy de:</label>
+				<select name="lugar" id="lugar">
+					<option value="CHOOSE">Seleccionar</option>
+					<option value="NOG">Nogales</option>
+					<option value="HJ">Hijuelas</option>
+					<option value="LC">La Calera</option>
+					<option value="LACRUZ">La Cruz</option>
+					<option value="QTA">Quillota</option>
+					<option value="SP">San Pedro</option>
+					<option value="OTRO">Otro</option>
+				</select>
+				<br>
+				<label for="preferencia">Que prefieres: </label><br>
+				<label for="">Tortas</label>
+				<input type="checkbox" name="tortas" value="tortas"><br>
+				<label for="">Cupcakes</label>
+				<input type="checkbox" name="cupcakes" value="cupcakes"><br>
+				<label for="">Popcakes</label>
+				<input type="checkbox" name="popcakes" value="popcakes"><br>
+				<label for="">Me gusta todo</label>
+				<input type="checkbox" name="megustatodo" value="megustatodo"><br>
+			</fieldset>
+	
+			<label for="" id="legend">Dejanos tu mensaje</label><br>
+			<textarea name="" id="" cols="30" rows="10" placeholder="deje su mensaje"></textarea>
+			<br>
+			<input type="reset" value="Cancelar">
+			<input type="submit" value="Enviar">
+		</form>
+		
+	</section>
+
+
+	<footer>
+		
+	</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+h1{
+	color: orangered;
+}
+
+h2{
+	color: blueviolet;
+}
+
+h3{
+	color: #0FF13F;
+}
+
+nav ul li a{
+	color: #05D7F6;
+}
+
+p{
+	color: #DA9999;
+}
+.descripcion{
+	color: #0CF2EF;
+}
+
+.precio{
+	color: red;
+}
+#legend{
+	color: #0CF21C;
+}
